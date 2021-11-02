@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>iqyi</title>
+  </head>
+  <body>
+    <section class="nav-sec"></section>
+
+    <section class="main-sec">
+      <div class="main-com">
+        <div class="card">
+          <div class="img-con">
+            <img class="img-main" src="./img/v1.jpg" alt="" />
+          </div>
+
+          <div class="des">
+            <p class="title">Froza 5</p>
+            <p class="de">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="img-con">
+            <img class="img-main" src="./img/v2.jpg" alt="" />
+          </div>
+
+          <div class="des">
+            <p class="title">Froza 5</p>
+            <p class="de">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="img-con">
+            <img class="img-main" src="./img/v3.jpg" alt="" />
+          </div>
+
+          <div class="des">
+            <p class="title">Froza 5</p>
+            <p class="de">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit
+            </p>
+          </div>
+        </div>
+
+
+        <a onclick="cSlide(-1)" class="prev" >&#10094</a>
+        <a onclick="cSlide(1)" class="next" >&#10095</a>
+
+        <div class="cir-con">
+          <span onclick="chSlide(1)" class="cir active"></span>
+          <span onclick="chSlide(2)" class="cir"></span>
+          <span onclick="chSlide(3)" class="cir"></span>
+        </div>
+      </div>
+    </section>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
